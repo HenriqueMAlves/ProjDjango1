@@ -1,0 +1,47 @@
+*Na maquina virtual (primeiro uso)*
+
+>sudo apt-get update
+>sudo apt-get upgrade -y
+
+conferir versão do python
+>python3 --version
+
+instalar ambiente virtual
+>sudo apt-get install python3-venv
+>python3 -m venv env
+
+liste os diretorios e confira se o ambiente virtual foi criado (pasta env)
+>ls
+
+ativar o ambiente virtual
+>source env/bin/activate
+
+instale o django no venv
+>pip3 install django
+
+clone seu repositório
+>git clone seu repositório
+
+liste os arquivos do diretório para verificar se o projeto foi clonado
+>ls
+
+instalar gunicorn
+>pip3 install gunicorn
+
+instalar e iniciar nginx
+>sudo apt-get install -y nginx
+>sudo nginx
+
+
+>gunicorn --bind 0.0.0.0:8000 aws.wsgi:application
+
+
+
+
+
+
+
+
+
+
+
